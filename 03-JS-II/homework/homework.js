@@ -177,6 +177,7 @@ function esPrimo(numero) {
   // if (numero < 2) { 
   //   return false;
   // }
+  // hola
 
   if (numero === 0 || numero === 1) {
     return false;
