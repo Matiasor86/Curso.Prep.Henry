@@ -103,7 +103,6 @@ var suma = 0
 for (var i = 0; i < resultadosTest.length; i++){
 suma = suma + resultadosTest[i]; 
 }
-console.log(suma, 'suma total')
 var promedio = suma / resultadosTest.length;
   return promedio;
 }
