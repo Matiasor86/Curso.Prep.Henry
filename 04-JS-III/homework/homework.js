@@ -114,14 +114,25 @@ function numeroMasGrande(numeros) {
   // Tu código:
   // var max = Math.max(...numeros);
   // return max; 
-  var valorMaximo = 0;
-  for (var i = 0; i < numeros.length; i++) {
-    if (numeros[i] > valorMaximo){
+//   var valorMaximo = 0;
+//   for (var i = 0; i < numeros.length; i++) {
+//     if (numeros[i] > valorMaximo){
+//       valorMaximo = numeros[i]
+//     }
+//   }
+//   return valorMaximo;
+// }
+  var valorMaximo = 0
+  for(var i = 0; i < numeros.length; i++) {
+    if(numeros[i] > valorMaximo){
       valorMaximo = numeros[i]
     }
   }
-  return valorMaximo;
+  return valorMaximo
 }
+
+
+
 
 
 function multiplicarArgumentos() {
