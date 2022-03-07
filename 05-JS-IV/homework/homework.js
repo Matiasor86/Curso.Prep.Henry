@@ -38,13 +38,25 @@ function invocarMetodo(objeto, metodo) {
   // Invoca ese método
   // Nada necesita ser devuelto ("returned")
   // Tu código:
+  objeto[metodo]()  
 }
 
 function multiplicarNumeroDesconocidoPorCinco(objetoMisterioso) {
   // "objetoMisterioso" tiene una propiedad llamada "numeroMisterioso"
   // Multiplica el numeroMisterioso por 5 y devuelve el producto
   // Tu código:
+//   var objetoMisterioso = {
+//     numeroMisterioso: n, 
+//     function (){
+//         console.log( n * 5 );
+//     }
+// }
+// return objetoMisterioso;
+// }
 
+var result = objetoMisterioso.numeroMisterioso * 5;
+
+return result;
 }
 
 function eliminarPropiedad(objeto, unaPropiedad) {
@@ -58,8 +70,16 @@ function nuevoUsuario(nombre, email, password) {
   // Crea un nuevo objeto con las propiedades coincidiendo con los argumentos que se pasan a la función
   // Devuelve el objeto
   // Tu código:
-
+  var objeto = {
+    nombre: nombre, 
+   email: email,
+    password: password,
+};
+return objeto;
 }
+
+
+
 
 function tieneEmail(usuario) {
   // Devuelve "true" si el usuario tiene un valor definido para la propiedad "email"
